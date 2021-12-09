@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter';
+}
+
+body,html {
+    height: 100%;
+}
+
+#block {
+    background-color: #2e1d38;
+    display: flex;
+    flex-direction: column;
+    margin-right: 75%;
+    height: 100%;
+}
+
+
+i {
+    color: white;
+    padding-right: 15px;
+    width: 20px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+
+.dashboard {
+    padding: 17px;
+   
+}
+
+.users {
+    padding: 17px;
+}
+
+.site {
+    padding: 17px;
+}
+
+.sales {
+    padding: 17px;
+}
+
+.email {
+    padding: 17px;
+}
+
+.setting {
+    padding: 17px;
+}
+
+.dashboard:hover {
+    background-color: #1a0e20cc;
+}
+.users:hover {
+    background-color: #1a0e20cc;
+}
+
+.site:hover {
+    background-color: #1a0e20cc;
+}
+
+.sales:hover {
+    background-color: #1a0e20cc;
+}
+
+.email:hover {
+    background-color: #1a0e20cc;
+}
+
+.setting:hover {
+    background-color: #1a0e20cc;
+}
+
+
+/*media quaries */
+
+@media screen and (max-width:768px) {
+
+    #block {
+        background-color: #2e1d38;
+        width: 100%;
+        height: 45%;
+        
+    }
+
+}
